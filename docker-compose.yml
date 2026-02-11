@@ -36,9 +36,6 @@ services:
     depends_on:
       - spark-master
 
-
-
-
 networks:
   spark-net:
     driver: bridge
