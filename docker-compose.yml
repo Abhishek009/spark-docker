@@ -24,7 +24,7 @@ services:
 
   jupyter:
     build: .
-    image: local-pyspark-351:latest
+    image: local-pyspark:latest
     container_name: jupyter
     depends_on:
       - spark-master

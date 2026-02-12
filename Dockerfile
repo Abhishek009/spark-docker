@@ -27,4 +27,4 @@ ENV JUPYTER_CONFIG_DIR=/home/spark/jupyter_config
 
 EXPOSE 8888 4040
 
-CMD ["python3", "-m", "jupyterlab", "--ip=0.0.0.0", "--port=8888", "--no-browser","--ContentsManager.checkpoints_class=notebook.services.contents.checkpoints.NoOpCheckpoints", "--NotebookApp.token=''"]
+CMD ["python3", "-m", "jupyterlab", "--ip=0.0.0.0", "--port=8888", "--no-browser","--NotebookApp.token=''"]
