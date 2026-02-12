@@ -31,7 +31,7 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - ./jupyter-data:/opt/spark-notebooks
+      - ./notebook:/opt/spark-notebooks
       - ./data:/opt/spark-data
     networks:
         - spark-net
